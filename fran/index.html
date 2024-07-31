@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sistemasdevenda</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+
+<body>
+     <header>
+     <h1>loja online</h1>
+     <button id="cart-button">carrinho(<span id="cart-count">0</span>)</button>
+</header>
+<main>
+<div id="products">
+    <div class="products">
+        <h2>produto 1</h2>
+         <p>preço: 50,00</p>
+        <button class="add-to-cart" data-price="50">adicionar ao carrinho</button>
+    </div>
+      <div class="products">
+            <h2>produto 2</h2>
+             <p>preço: 30,00</p>
+            <button class="add-to-cart" data-price="30">adicionar ao carrinho</button>
+     </div>
+        <div class="products">
+                <h2>produto 3</h2>
+                 <p>preço: 20,00</p>
+                <button class="add-to-cart" data-price="20">adicionar ao carrinho</button>
+            </div>
+      </div>
+</main>                  
+<footer>
+    <p>2024 loja online</p>
+</footer>
+
+<div id="cart-modal"class="modal">
+  </div class="modal-content">
+   <span class="close">&times;</span>
+    <div id="cart-items"></div>
+    <p>total:R$ <span id="total-price">0</span></p>
+    <button id="chekout=button">finalizar compra</button>
+    <div>
+
+    </div>
+
+</body>
+</html>
